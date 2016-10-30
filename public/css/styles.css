@@ -1,0 +1,24 @@
+.addCases{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.listCases{
+	width:80%; margin: 0 auto;
+}
+
+#addButton{
+	margin-top:10px;
+	float:right;
+}
+
+.cardBox{
+	float:left;
+	width:50%;
+
+}
+
+.cards{
+	height:250px;
+}
+

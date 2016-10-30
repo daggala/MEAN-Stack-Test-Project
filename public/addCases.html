@@ -1,0 +1,15 @@
+<!-- A form where new usecases are submitted to the list of usecases -->
+
+<div class="addCases" ng-controller="AppCtrl" >
+
+	<p> Title</p>
+
+	<input class="form-control" ng-model="case.title"><br>
+
+	<p> Body</p>
+
+	<textarea class="form-control" ng-model="case.body"></textarea>
+	
+	<button id="addButton" class="btn" ng-click="addUseCase()">Add</button>
+
+</div>

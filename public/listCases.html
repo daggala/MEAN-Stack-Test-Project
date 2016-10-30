@@ -1,0 +1,27 @@
+<!-- List of usecases -->
+
+<div ng-controller="AppCtrl">
+
+	<div class="listCases">
+
+			<div class="cardBox" ng-repeat="case in cases" ng-click="showMilestone(case.milestones, case._id)" >
+
+				<md-card class="cards" ng-attr-id="{{case._id}}">
+
+					<md-card-content>
+
+						<h2>{{case.title}}</h2>
+
+						<!--$sce.trustAsHtml is used to display raw HTML--> 
+						<p> <span ng-bind-html="$sce.trustAsHtml(case.body)"></span> </p>
+
+					</md-card-content>
+
+				</md-card>
+	
+			</div>
+
+	</div>
+
+</div>
+
